@@ -1,0 +1,68 @@
+[
+	{
+		'inputs': [
+			{
+				'internalType': 'string',
+				'name': 'message',
+				'type': 'string'
+			},
+			{
+				'internalType': 'bytes',
+				'name': 'signature',
+				'type': 'bytes'
+			}
+		],
+		'name': 'storeMessage',
+		'outputs': [],
+		'stateMutability': 'nonpayable',
+		'type': 'function'
+	},
+	{
+		'inputs': [
+			{
+				'internalType': 'address',
+				'name': '',
+				'type': 'address'
+			}
+		],
+		'name': 'entries',
+		'outputs': [
+			{
+				'internalType': 'string',
+				'name': 'message',
+				'type': 'string'
+			},
+			{
+				'internalType': 'bytes',
+				'name': 'signature',
+				'type': 'bytes'
+			}
+		],
+		'stateMutability': 'view',
+		'type': 'function'
+	},
+	{
+		'inputs': [
+			{
+				'internalType': 'address',
+				'name': 'owner',
+				'type': 'address'
+			}
+		],
+		'name': 'getMessage',
+		'outputs': [
+			{
+				'internalType': 'string',
+				'name': '',
+				'type': 'string'
+			},
+			{
+				'internalType': 'bytes',
+				'name': '',
+				'type': 'bytes'
+			}
+		],
+		'stateMutability': 'view',
+		'type': 'function'
+	}
+]
